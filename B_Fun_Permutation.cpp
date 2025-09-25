@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define db double
+
+int main(){
+    // ios::sync_with_stdio(false);
+    // cin.tie(nullptr);
+
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> p(n);
+        for (int i = 0; i < n; ++i) 
+            cin >> p[i];
+
+        for (int i = 0; i < n; ++i) {
+            int q = (n + 1) - p[i];
+            cout << q << (i+1==n? '\n' : ' ');
+        }
+
+
+
+    }
+
+}

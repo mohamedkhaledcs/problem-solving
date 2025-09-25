@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    ".fantomasignore": "ignore",
+    "ostream": "cpp",
+    "xstring": "cpp",
+    "bitset": "cpp",
+    "iomanip": "cpp",
+    "xutility": "cpp",
+    "iostream": "cpp",
+    "vector": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "xtree": "cpp",
+    "tuple": "cpp",
+    "iterator": "cpp",
+    "xhash": "cpp"
+  }
+}
